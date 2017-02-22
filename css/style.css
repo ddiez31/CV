@@ -263,6 +263,12 @@ p {
     top: -2px;
 }
 
+.test {
+    display: flex;
+    justify-content: flex-start;
+    background: #fff;
+}
+
 .main-wrapper .section {
     margin-bottom: 60px;
 }
