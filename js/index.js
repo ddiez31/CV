@@ -21,7 +21,7 @@ $(document).ready(function() {
             kkeys.push(e.keyCode);
             if (kkeys.toString().indexOf(konami) >= 0 && checkCode == 0) {
                 checkCode = 1;
-                $(".test").append('<div class="golden" style="background:url(images/approved.png) no-repeat; background-position: center; height:350px; width:350px; color:#545E6C;"></div>');
+                $(".test").append('<div class="golden" style="background:url(/images/approved.png) no-repeat; background-position: center; height:350px; width:350px; color:#545E6C;"></div>');
                 $(".test").append('<div class="golden" style="height:350px; width:350px; color:#545E6C;"><h4 style="text-align: center">Profil intéressant!</h4><p style="text-align: center">Il me faut ce gars dans mon équipe!</p><p style="text-align: center"><a href="https://twitter.com/intent/tweet?original_referer=&text=Je%20te%20veux%20dans%20mon%20équipe&tw_p=tweetbutton&via=DavidDiez31">Envoyez-moi un Twit</a></p></div>');
                 kkeys = [];
             }
