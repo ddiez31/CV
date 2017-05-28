@@ -68,8 +68,8 @@ p {
 }
 
 .simplon {
-    width: 10%;
-    height: 10%;
+    width: 7%;
+    height: 7%;
 }
 
 .profile {
@@ -372,6 +372,15 @@ p {
     }
     .main-wrapper .upper-row {
         margin-bottom: 0;
+    }
+    .profile {
+        width: 20%;
+        height: 20%;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
     }
 }
 
